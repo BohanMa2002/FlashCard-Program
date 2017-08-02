@@ -12,6 +12,7 @@
 		94C789601F30EDD3001EAB9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C7895E1F30EDD3001EAB9F /* Main.storyboard */; };
 		94C789621F30EDD3001EAB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C789611F30EDD3001EAB9F /* Assets.xcassets */; };
 		94C789651F30EDD3001EAB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C789631F30EDD3001EAB9F /* LaunchScreen.storyboard */; };
+		94C7896D1F311A57001EAB9F /* Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7896C1F311A57001EAB9F /* Flashcards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94C789611F30EDD3001EAB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C789641F30EDD3001EAB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C789661F30EDD3001EAB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7896C1F311A57001EAB9F /* Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				94C7895A1F30EDD3001EAB9F /* AppDelegate.swift */,
 				94C7895C1F30EDD3001EAB9F /* ViewController.swift */,
 				94C7895E1F30EDD3001EAB9F /* Main.storyboard */,
+				94C7896C1F311A57001EAB9F /* Flashcards.swift */,
 				94C789611F30EDD3001EAB9F /* Assets.xcassets */,
 				94C789631F30EDD3001EAB9F /* LaunchScreen.storyboard */,
 				94C789661F30EDD3001EAB9F /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C7896D1F311A57001EAB9F /* Flashcards.swift in Sources */,
 				94C7895D1F30EDD3001EAB9F /* ViewController.swift in Sources */,
 				94C7895B1F30EDD3001EAB9F /* AppDelegate.swift in Sources */,
 			);
@@ -263,6 +267,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FlashCard Program/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Bohan.FlashCard-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FlashCard Program/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Bohan.FlashCard-Program";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +307,7 @@
 				94C7896B1F30EDD3001EAB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
