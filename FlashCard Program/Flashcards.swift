@@ -38,7 +38,7 @@ class cardCollection //class cardcollection
     
     private init ()
     {
-        cards = [Flashcards(questions: "Who is the fourtyfifth president of the United States Of America?", choices:["Donald j Trump","Bohan Ma","Alexander                             Hamilton"]),
+        cards = [Flashcards(questions: "Who is the fourtyfifth president of the United States Of America?", choices:["Donald j Trump","Bohan Ma","Alexander Hamilton"]),
             Flashcards(questions: "What is the most resent IOS?", choices:["IOS 9", "IOS 10", "IOS 11"])
                 ]
         currentIndex = 0
